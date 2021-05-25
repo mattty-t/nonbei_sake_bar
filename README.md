@@ -15,6 +15,8 @@ Upon starting the application. The application will get user input and prompt th
 
 ![welcome](docs/welcomescreen.png)
 
+---
+
 If the user does not answer it correctly, it will print a message for the User to enter the required information and if not, it will exit.
 
 
@@ -24,6 +26,8 @@ After that, it will ask the user to input their name and if they do not input th
 
 
 ![askname](docs/askname.png)
+
+---
 
 Once all the information has been asked. The user will be directed to the main menu. As seen below, users use the up/arrow keys to move and enter to input their selection. I used TTY prompt to stop any User Input errors. 
 
@@ -54,6 +58,7 @@ It will print the total. In the future, I would like to be able to add extra det
 
 ![order2](docs/order2.png)
 
+---
 ## **Features** 
 
 **TTY-table**
@@ -75,16 +80,23 @@ This feature allows the user to use the up/down arrow key and enter to select th
 **User interface**
 I have used ascii to create the title for the bar and on the screens. I also used colorize to make the terminal application more visually appealing.
 
+---
+
 ## **Control flow of diagram**
 
 Below is the Control Flow Diagram I started with and the features I wanted to do with it.
-Prototype Control Flow Diagram
+
+
+**Prototype Control Flow Diagram**
 ![flowchart](docs/Flowchart.png)
 
 Below is the Control Flow Diagram I ended up doing. I was not able to do the features I wanted to in the Prototype Control Flow Diagram.
-Final Control Flow Diagram 
+
+**Final Control Flow Diagram**
 ![flowchartfinal](docs/Flowchartfinal.png)
 
+
+---
 
 ## **Code**
 
@@ -106,6 +118,7 @@ Sake Class that was created to store the sake details/objects/variables.
 **If/else statements**
 ![ifstatement](docs/ifstatement.png)
 
+---
 
 ## **Project Management** 
 ### **Day 1**
@@ -127,6 +140,8 @@ I decided to start programming the Terminal application. There are still many fe
 ![day3](docs/Day_3.png)
 
 
+---
+
 
 ## **Challenges**
 
@@ -142,6 +157,9 @@ I decided to start programming the Terminal application. There are still many fe
 
 ## **Favourite parts**
 - My favourite part about this application is in using the knowledge that has been taught in class, doing exercises during class, watching the modules and doing the challenges. It took a while for me to understand Arrays, Key-value pairs and also Classes/objects in Ruby. Using this knowledge and being able to put this into creating a Terminal Application is rewarding. Being able to create a terminal application where uers can do basic tasks such as entering their details, viewing information. 
+
+
+---
 
 ## **Installation**
 
@@ -160,6 +178,8 @@ I decided to start programming the Terminal application. There are still many fe
 - gem install colorize 
 - gem install ascii
 
-**5.** Run the Terminal application
+**5** Change directory by typing ```cd/src```
+
+**6.** Run the Terminal application
 To run the Terminal application, please type: 
 ```./run_app.sh```
