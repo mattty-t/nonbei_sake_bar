@@ -35,9 +35,14 @@ Once all the information has been asked. The user will be directed to the main m
 
 ![mainmenu](docs/mainmenu.png)
 
+
+---
+
 If the User selects "View the Menu", it will take them to the screen with the Sake Menu using TTY-tables. A feature I would have liked to add in the future is for the user to press any key and for it to take them back.
 
 ![sakemenu](docs/sakemenu.png)
+
+---
 
 If the User selects "View Sake Information". It will populate a TTY-prompt with which sake they would like to view.
 
@@ -48,6 +53,8 @@ Selecting the sake they want to know about, will take them to the page with the 
 
 ![sakeinformationcontinued](docs/sakeinformationcontinued.png)
 
+
+---
 
 Selecting Order a Drink will populate a screen where it allows the user to choose what they want to order. 
 
@@ -78,6 +85,7 @@ I have used TTY-table to create a menu when the user selects "View the Menu". A 
 This feature allows the user to use the up/down arrow key and enter to select the options available. I have used this feature for when the user chooses "Order a drink" and also "View Sake Information"
 
 **User interface**
+
 I have used ascii to create the title for the bar and on the screens. I also used colorize to make the terminal application more visually appealing.
 
 ---
