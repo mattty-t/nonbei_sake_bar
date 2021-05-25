@@ -181,5 +181,6 @@ I decided to start programming the Terminal application. There are still many fe
 **5** Change directory by typing ```cd/src```
 
 **6.** Run the Terminal application
+
 To run the Terminal application, please type: 
 ```./run_app.sh```
