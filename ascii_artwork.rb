@@ -14,11 +14,3 @@ def self.clear
 end
     
 
-# class ReturnMenu
-
-# def return_to_menu 
-#         puts "\n\n Press any key to go back to the main menu"
-#         $stdin.getch
-# end 
-# end 
-
