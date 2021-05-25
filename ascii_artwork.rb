@@ -8,25 +8,17 @@ def self.welcome_screen
     puts " ╚═╝░░╚══╝░╚════╝░╚═╝░░╚══╝╚═════╝░╚══════╝╚═╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝"
 end    
 
-def self.sake_bottles    
-puts"                              ___"
-puts"                              )_(                                            _"
-puts"                              | |                                           [_ ]"
-puts"                            .-'-'-.       _                               .-'. '-."
-puts"                           /-::_..-\    _[_]_                            /:;/ _.-'\"
-puts'                                /_     _\   /_   _\      [-]                  |:._   .-|"
-puts"                           |;::    |   )_``'_(    .-'-'-.       (-)      |:._     |"
-puts"                           |;::    |   |;:   |    :-...-:     .-'-'-.    |:._     |"
-puts"                           |;::    |   |;:   |    |;:   |     |-...-|    |:._     |"
-puts "                          |;::-.._|   |;:.._|    |;:.._|     |;:.._|    |:._     |"
-puts "                          `-.._..-'   `-...-'    `-...-'     `-...-'    `-.____.-' "
-end 
-
-    def self.clear
+#clears screen* 
+def self.clear
         print "\e[2J\e[f"
-    end
+end
     
-    def return_to_menu 
-        puts "\n\n Press any key to go back to the main menu"
-        $stdin.getch
-    end 
+
+# class ReturnMenu
+
+# def return_to_menu 
+#         puts "\n\n Press any key to go back to the main menu"
+#         $stdin.getch
+# end 
+# end 
+
