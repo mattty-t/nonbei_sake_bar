@@ -86,49 +86,80 @@ Final Control Flow Diagram
 ![flowchartfinal](docs/Flowchartfinal.png)
 
 
+## **Code**
+
+**Class/Objects**
+
+Sake Class that was created to store the sake details/objects/variables.
+
+![class](docs/class.png)
+
+
+
+
+**Case Statements and TTY prompt**
+
+
+![casestatement](docs/casestatements.png)
+
+
+**If/else statements**
+![ifstatement](docs/ifstatement.png)
+
+
 ## **Project Management** 
 ### **Day 1**
 
 I decided to do put all the criteria marking guide so I know what to work on. I finished my flow chat on day 1.
 
-![img](docs/Day_1.png)
+![day1](docs/Day_1.png)
 
 ### **Day 2**
 
 
 I worked out what classes I needed and decided to start programming. I started installing ruby gems and using it with the app.
 
-![img](docs/Day_2.png)
+![day2](docs/Day_2.png)
 
 ### **Day 3**
-I decided to start programming the Terminal application. There are still many features that was needed to be completed. 
+I decided to start programming the Terminal application. There are still many features that was needed to be completed. I did not complete Error handling as much as I hoped but did the main part of the Terminal Application. 
 
-![img](docs/Day_3.png)
+![day3](docs/Day_3.png)
 
-## **Challenges/learnings**
 
-The biggest challenge for me was programming what I wanted. The features I wanted to do were simple but I just could not understand how to program it when the terminal assessment was handed out. I found my lack of knowledge of Ruby at the time slowed my progress. I knew the flow of the application but did not know how to execute this in code. In the future, I will write pseudo code that will help me code what I want and ask for help and collaborating with others in the classroom instead of trying to figure it out myself. I will do more planning as I find that the most important part. 
 
-Lack of time and working full time was the biggest factor for me that impeded me into not being able to do the things I want with the application and allowing more time to understand Arrays, Classes and Objects.  
+## **Challenges**
 
-**Installation**
+- The biggest challenge for me was programming what I wanted. The features I wanted to do were simple but I just could not understand how to program it when the terminal assessment was handed out. I found my lack of knowledge of Ruby at the time slowed my progress. I knew the flow of the application but did not know how to execute this in code. In the future, I will write pseudo code that will help me code what I want and ask for help and collaborating with others in the classroom instead of trying to figure it out myself. I will do more planning as I find that the most important part when it comes to programming.
 
-1. Please make sure you have ruby installed and if not, please go to [ruby](https://www.ruby-lang.org/en/downloads/) and follow the instructions from there. 
+- Lack of time and working full time was the biggest factor for me that impeded me into not being able to do the things I want with the application and allowing more time to understand Arrays, Classes and Objects. I feel this is one of the weaker projects when compared to the website that I have made. I will strive to do better next time, learn and improve from this terminal application project. 
 
-2. If you do not have bundler installed, please enter the following details below in your command line app:
+## **Learnings**
+
+- I will utilise classes such as Order, which will allow me to create a method where I can add, remove orders and it will calculate the total price.
+
+- Error Handling - I did not have the time to do Error handling and knowing Error handling is a very important aspect of developing an application. As that will affect the user experience. I will ensure that I will do that next time for my future applications. I find that it is important to do Error Handling when creating the classes to make sure that the application should work.
+
+## **Favourite parts**
+- My favourite part about this application is in using the knowledge that has been taught in class, doing exercises during class, watching the modules and doing the challenges. It took a while for me to understand Arrays, Key-value pairs and also Classes/objects in Ruby. Using this knowledge and being able to put this into creating a Terminal Application is rewarding. Being able to create a terminal application where uers can do basic tasks such as entering their details, viewing information. 
+
+## **Installation**
+
+**1.** Please make sure you have ruby installed and if not, please go to [ruby](https://www.ruby-lang.org/en/downloads/) and follow the instructions from there. 
+
+**2.** If you do not have bundler installed, please enter the following details below in your command line:
 
 ```install bundler ```
 
-3. Clone the files from: 
+**3.** Clone the files from: git@github.com:mattty-t/nonbei_sake_bar.git
 
-git@github.com:mattty-t/nonbei_sake_bar.git
-
-4. Ruby Gems
+**4.** Ruby Gems
 
 - gem install tty-prompt
 - gem install tty-table
+- gem install colorize 
 - gem install ascii
 
-System/hardware requirements
-
-
+**5.** Run the Terminal application
+To run the Terminal application, please type: 
+```./run_app.sh```

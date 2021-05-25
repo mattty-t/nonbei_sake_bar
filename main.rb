@@ -124,6 +124,6 @@ case choices
         puts "#{houraisen_bi.display_price}"
         puts "Thank you for your order #{name} and I hope you enjoy your drink "
     end 
-when 4
+    when 4
     exit
 end 

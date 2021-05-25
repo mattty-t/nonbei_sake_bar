@@ -29,7 +29,7 @@ class Sake
     end
 
      # displays the price 
-     def display_price 
+    def display_price 
         puts 
         puts "#{@price} AUD"
     end 
