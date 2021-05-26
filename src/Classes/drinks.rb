@@ -25,7 +25,7 @@ class Sake
     end 
 
     def display_size
-        puts "How many would you like?: #{@size}"
+        puts "Size: #{@size}"
     end
 
      # displays the price 
