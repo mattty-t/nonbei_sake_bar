@@ -38,7 +38,7 @@ Once all the information has been asked. The user will be directed to the main m
 
 ---
 
-If the User selects "View the Menu", it will take them to the screen with the Sake Menu using TTY-tables. A feature I would have liked to add in the future is for the user to press any key and for it to take them back.
+If the User selects "View the Menu", it will take them to the screen with the Sake Menu using TTY-tables. A feature I would have liked to add in the future is for the user to press any key and for it to take them back. Unfortunately, the User has to restart the app again to go back to the main menu which makes it not user friendly.
 
 ![sakemenu](docs/sakemenu.png)
 
@@ -48,7 +48,7 @@ If the User selects "View Sake Information". It will populate a TTY-prompt with 
 
 ![sakeinformation](docs/sakeinformation.png)
 
-Selecting the sake they want to know about, will take them to the page with the information. It will display information about the sake. For the future, I would like a feature where the user can go back or return to menu.
+Selecting the sake they want to know about, will take them to the page with the information. It will display information about the sake. Unfortunately, the User needs to restart the app again. Which makes it not a very user friendly experience. For the future, I would like a feature where the user can go back or return to menu.
 
 
 ![sakeinformationcontinued](docs/sakeinformationcontinued.png)
